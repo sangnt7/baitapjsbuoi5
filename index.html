@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- Bài Tập Tiền Điện -->
+    <div class="card" style="width:600px">
+        <div class="card-body">
+          <h4 class="card-title">Tính Tiền điện</h4>
+          <p class="card-text">Nhập vào số KW điện</p>
+           <input type="text" id="sokw">
+          <a id="btn-TinhTien" href="#" class="btn btn-primary">Tính tiền điện</a>
+          <div class="alert alert-primary" role="alert">
+              <strong>Tiền Điện Tháng Này của bạn là </strong> <strong id="kq"></strong>
+          </div>
+        </div>
+      </div>
+      <!-- Bài tập Điểm Thi Đại Học -->
+      <div class="card" style="width:600px">
+        <div class="card-body">
+          <h4 class="card-title">Tính Điểm Thi</h4>
+          
+          <p class="card-text">Nhập vào số điểm chuẩn của Trường</p>
+           <input type="text" id="diemChuan">
+          
+           <p class="card-text">Nhập Điểm Toán</p>
+          <input type="text" id="diemToan">
+          
+          <p class="card-text">Nhập Điểm Văn</p>
+          <input type="text" id="diemVan">
+          
+          <p class="card-text">Nhập Điểm Anh</p>
+          <input type="text" id="diemAnh">
+            
+          <div class="form-group">
+            <label for=""> Mời bạn chọn Khu vực ưu tiên </label>
+            <select class="form-control" name="" id="khuVuc">
+              <option value="2"> Khu vực A</option>
+              <option value="1"> Khu vực B</option>
+              <option value="0.5"> Khu vực C </option>
+              <option value="0"> Không thuộc khu vực ưu tiên </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for=""> Bạn thuộc đối tượng nào </label>
+            <select class="form-control" name="" id="doiTuong">
+              <option value="2.5">Đối tượng 1 </option>
+              <option value="1.5"> Đối Tượng 2</option>
+              <option value="1"> Đối Tượng 3 </option>
+              <option value="0"> Không thuộc đối tượng ưu tiên </option>
+            </select>
+          </div>
+
+          <a id="btn-TinhDiem" href="#" class="btn btn-primary">Tính Điểm</a>
+          <div class="alert alert-primary" role="alert">
+            <spanp>Kết quả của bạn là:</span>  
+            <strong id="kq2"></strong>
+            <br>
+            <span>Tổng điểm của bạn là:</span>
+            <strong id="tongDiem"></strong>
+          </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
